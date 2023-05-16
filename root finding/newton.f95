@@ -1,5 +1,5 @@
 !ニュートン法で方程式の近似解を求める
-Program task4
+Program newton
 Implicit None
 
 REAL x
@@ -34,4 +34,4 @@ REAL FUNCTION df(x)
  RETURN
 END FUNCTION df
 
-END Program task4
+END Program newton
