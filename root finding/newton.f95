@@ -15,11 +15,9 @@ END DO
 
 WRITE(*,*)'許容誤差',error
 WRITE(*,*)'解',x
-
 STOP
 
 CONTAINS
-
 REAL FUNCTION f(x)
  Implicit None
  REAL x
